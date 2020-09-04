@@ -4,7 +4,7 @@ body{
   }
 
 .nav {
-    background-color: white;
+    background-color:yellow;
 }
 
 .nav-link {
@@ -16,15 +16,18 @@ body{
 .col-12 {
     font-size: 50px;
     font-family: 'Bitter', serif;
-    background-color: orange;
+    background-color:purple;
 } 
 
-.col-4 {
-    background-color: purple;
-}
-
-.col-8 {
+.col-6 {
     background-color: pink;
+}
+.col-12-inside {
+    background-color: palegreen;
+}
+#selfie {
+    width: 298px; 
+    height: 262;
 }
 
 font-family: 'Source Sans Pro', sans-serif;
