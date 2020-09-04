@@ -1,23 +1,22 @@
-
-body {
+body{
     margin: auto;
     padding: auto;
-}
-.nav {
-    background-color: #68696B;
-}
+  }
 
+.nav {
+    background-color: white;
+}
 .nav-link {
-    color: white;
+    color: #68696B;;
+    
 }
 
 .container {
     background-color: pink;
     border: 4px black solid;
-    margin-top: 50px;
 }
 
-#about-me {
-    font-size: 30px;
-    font-weight: bold;
+.jumbotron {
+    background-color: white;
+    
 }
