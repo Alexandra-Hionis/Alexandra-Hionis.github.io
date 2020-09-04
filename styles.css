@@ -6,17 +6,25 @@ body{
 .nav {
     background-color: white;
 }
+
 .nav-link {
-    color: #68696B;;
-    
+    color: black;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
 }
 
-.container {
+.col-12 {
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    background-color: orange;
+} 
+
+.col-4 {
+    background-color: purple;
+}
+
+.col-8 {
     background-color: pink;
-    border: 4px black solid;
 }
 
-.jumbotron {
-    background-color: white;
-    
-}
+font-family: 'Source Sans Pro', sans-serif;
