@@ -1,11 +1,9 @@
 body{
-    margin: auto;
-    padding: auto;
+    background-image: url("new-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
   }
-
-.nav {
-    background-color:yellow;
-}
 
 .nav-link {
     color: black;
@@ -13,21 +11,16 @@ body{
     text-transform: uppercase;
 }
 
-.col-12 {
-    font-size: 50px;
+.jumbotron {
+    background: none;
     font-family: 'Bitter', serif;
-    background-color:purple;
-} 
-
-.col-6 {
-    background-color: pink;
-}
-.col-12-inside {
-    background-color: palegreen;
-}
-#selfie {
-    width: 298px; 
-    height: 262;
 }
 
-font-family: 'Source Sans Pro', sans-serif;
+#about-me {
+    text-transform: uppercase;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
