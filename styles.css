@@ -31,6 +31,11 @@ span {
     padding: 0 10px 0 10px;
 }
 
+.lead {
+    margin-bottom: 5px;
+    color: lightblue;
+}
+
 .lead
 span {
     background-color: black;
@@ -46,4 +51,9 @@ span {
 span {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
+}
+
+.footer 
+.navbar-fixed-bottom {
+    background-color: coral;
 }
