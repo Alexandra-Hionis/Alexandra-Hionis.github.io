@@ -44,6 +44,18 @@ span {
     color: lightblue;
 }
 
+.col-12
+img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#selfie {
+    width: 178px;
+    height: 162px;
+    border-radius: 120%;
+    margin-bottom: 80px;
+}
 .col-12 {
     font-family: 'Bitter', serif;
 }
@@ -53,7 +65,9 @@ span {
     font-weight: bold;
 }
 
-.footer 
-.navbar-fixed-bottom {
-    background-color: coral;
+.navbar {
+    display: flex;
+    justify-content:center;
+    font-family: 'Bitter', serif;
+    font-size: 12px;
 }
