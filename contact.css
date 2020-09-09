@@ -22,6 +22,12 @@ a:hover {
     background-color: white;
 }
 
+.jumbotron-form {
+    font-family: 'Bitter', serif;
+    background-color: white;
+    margin: 100px;
+    padding: 0px;
+}
 #contact
 span {
     text-transform: uppercase;
@@ -44,10 +50,10 @@ span {
     color: lightblue;
 }
 
-.col-12 {
+.col-sm-12 {
     font-family: 'Bitter', serif;
 }
-.col-12 
+.col-sm-12
 span {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
@@ -57,5 +63,23 @@ span {
     display: flex;
     justify-content:center;
     font-family: 'Bitter', serif;
-    font-size: 12px;
+    padding: 0;
+}
+
+.social-icons {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 15px;
+    margin-top: 10px;
+
+}
+
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: -2px;
+    
 }

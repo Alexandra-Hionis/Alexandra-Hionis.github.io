@@ -22,6 +22,13 @@ a:hover {
     background-color: white;
 }
 
+.jumbotron-about {
+    font-family: 'Bitter', serif;
+    background-color: white;
+    margin: 100px;
+    padding: 0px;
+}
+
 #about-me
 span {
     text-transform: uppercase;
@@ -44,7 +51,7 @@ span {
     color: lightblue;
 }
 
-.col-8
+.col-sm-8
 img {
     margin:0 auto;
     display:block;
@@ -55,25 +62,39 @@ img {
     height: 409px;
 }
 
-.col-12 {
+.col-sm-12 {
     font-family: 'Bitter', serif;
-    margin: 50px;
+    margin-top: 100px;
 }
-.col-12 
+
+.col-sm-12 
 span {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .navbar {
     display: flex;
     justify-content:center;
     font-family: 'Bitter', serif;
-    font-size: 12px;
+    padding: 0;
 }
 
 .social-icons {
     width: 32px;
     height: 32px;
-    margin: 7px;
+    padding: 0px;
+    margin: 15px;
+    margin-top: 10px;
+
+}
+
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: -2px;
+    
 }
