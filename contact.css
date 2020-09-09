@@ -1,6 +1,7 @@
 body{
     background-image: url("new-background.jpg");
-    background-size: cover;
+    width: 50%;
+    height: 50%;
     background-repeat: no-repeat;
     background-color: #cccccc;
   }
@@ -19,8 +20,6 @@ a:hover {
 .jumbotron {
     background: none;
     font-family: 'Bitter', serif;
-    margin-left:-10px;
-    margin-top:-10px;
     height:100%;
     min-width:100%;
     position:absolute; 
