@@ -5,6 +5,11 @@ body{
     background-color: #cccccc;
   }
 
+/* link styles */
+a:hover {
+    color: lightblue;
+}
+
 .nav-link {
     color: black;
     font-family: 'Bitter', serif;
@@ -16,11 +21,24 @@ body{
     font-family: 'Bitter', serif;
 }
 
-#about-me {
+#about-me
+span {
     text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: 80%;
+    padding: 0 10px 0 10px;
 }
 
-h1 {
-    background-color: lightblue;
+.lead {
+    margin-bottom: 5px;
+    color: lightblue;
+}
+
+.lead
+span {
+    background-color: black;
+    opacity: 80%;
+    padding: 0 10px 0 10px;
 }
 
