@@ -44,20 +44,20 @@ span {
     color: lightblue;
 }
 
-.col-12
+.col-8
 img {
-    display: flex;
-    justify-content: flex-start;
+    margin:0 auto;
+    display:block;
 }
 
 #selfie {
-    width: 178px;
-    height: 162px;
-    border-radius: 120%;
-    margin-bottom: 80px;
+    width: 480px;
+    height: 409px;
 }
+
 .col-12 {
     font-family: 'Bitter', serif;
+    margin: 50px;
 }
 .col-12 
 span {

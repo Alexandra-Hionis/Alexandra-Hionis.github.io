@@ -1,8 +1,5 @@
 body{
-    background-image: url("new-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #cccccc;
+    background-color: white
   }
 
 /* link styles */
@@ -10,6 +7,10 @@ a:hover {
     color: lightblue;
 }
 
+.nav {
+    background: transparent;
+    background-color: white;
+}
 .nav-link {
     color: black;
     font-family: 'Bitter', serif;
@@ -17,16 +18,11 @@ a:hover {
 }
 
 .jumbotron {
-    background: none;
     font-family: 'Bitter', serif;
-    margin-left:-10px;
-    margin-top:-10px;
-    height:100%;
-    min-width:100%;
-    position:absolute; 
+    background-color: white;
 }
 
-#about-me
+#contact
 span {
     text-transform: uppercase;
     background-color: black;
@@ -41,9 +37,16 @@ span {
 }
 
 .lead
-
 span {
     background-color: black;
     opacity: 80%;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
+    color: lightblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content:center;
+    font-family: 'Bitter', serif;
+    font-size: 12px;
 }
