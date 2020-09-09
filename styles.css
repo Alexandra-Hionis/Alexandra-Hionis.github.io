@@ -71,3 +71,9 @@ span {
     font-family: 'Bitter', serif;
     font-size: 12px;
 }
+
+.social-icons {
+    width: 32px;
+    height: 32px;
+    margin: 7px;
+}
