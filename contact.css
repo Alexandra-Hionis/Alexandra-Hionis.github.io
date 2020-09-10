@@ -1,27 +1,31 @@
+/* body style */
 body{
-    background-color: white
-  }
+    background-color: white;
+}
 
 /* link styles */
 a:hover {
     color: lightblue;
 }
 
-.nav {
-    background: transparent;
-    background-color: white;
-}
 .nav-link {
     color: black;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
 }
 
+.nav {
+    background: transparent;
+    background-color: white;
+}
+
+/* header jumbotron style */
 .jumbotron {
     font-family: 'Bitter', serif;
     background-color: white;
 }
 
+/* contact section jumbotron style */
 .jumbotron-form {
     font-family: 'Bitter', serif;
     background-color: white;
@@ -50,6 +54,7 @@ span {
     color: lightblue;
 }
 
+/* contact form style */
 .col-sm-12 {
     font-family: 'Bitter', serif;
 }
@@ -59,6 +64,7 @@ span {
     font-weight: bold;
 }
 
+/* footer style */
 .navbar {
     display: flex;
     justify-content:center;
@@ -66,20 +72,20 @@ span {
     padding: 0;
 }
 
+/* social media icons footer */
 .social-icons {
     width: 32px;
     height: 32px;
     padding: 0px;
     margin: 15px;
     margin-top: 10px;
-
 }
 
+/* copyright footer */
 #copyright {
     text-align: center;
     font-size: 10px;
     padding-top: 0px;
     margin-top: 20px;
-    margin-bottom: -2px;
-    
+    margin-bottom: -2px; 
 }

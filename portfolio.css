@@ -1,5 +1,6 @@
+/* body style */
 body{
-    background-color: white
+    background-color: white;
   }
 
 /* link styles */
@@ -7,21 +8,24 @@ a:hover {
     color: lightblue;
 }
 
-.nav {
-    background: transparent;
-    background-color: white;
-}
 .nav-link {
     color: black;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
 }
 
+.nav {
+    background: transparent;
+    background-color: white;
+}
+
+/* header jumbotron style */
 .jumbotron {
     font-family: 'Bitter', serif;
     background-color: white;
 }
 
+/* portfolio section jumbotron style */
 .jumbotron-portfolio {
     margin: 120px;
 }
@@ -48,11 +52,12 @@ span {
     color: lightblue;
 }
 
+/* portfolio image layout */
 .col-sm-6 {
     margin-bottom: 20px;
 }
 
-
+/* footer style */
 .navbar {
     display: flex;
     justify-content:center;
@@ -60,57 +65,20 @@ span {
     padding: 0;
 }
 
+/* social media icons footer */
 .social-icons {
     width: 32px;
     height: 32px;
     padding: 0px;
     margin: 15px;
     margin-top: 10px;
-
 }
 
+/* copyright footer */
 #copyright {
     text-align: center;
     font-size: 10px;
     padding-top: 0px;
     margin-top: 20px;
-    margin-bottom: -2px;
-    
+    margin-bottom: -2px; 
 }
-
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-  }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
