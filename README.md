@@ -3,3 +3,6 @@ This project consists of an 'about me' page, a 'contact' page, and a 'profile pa
 This should display resposive bootstrap 4.5 webpages all utilizing rows, columns, grid system, and any other responsive elements.
 This profile will display different uses of that criteria through three simple webpages. I put a lot of time into it, I hope whoever views it enjoys it!
 
+![about](about.png)
+![contact](contact.png)
+![portfolio](portfolio.png)
