@@ -11,6 +11,7 @@ a:hover {
     color: #F9F4F1;
 }
 
+/* nav styles */
 .nav-link {
     color: black;
     font-family: 'Bitter', serif;
@@ -22,18 +23,17 @@ a:hover {
     background-color: white;
 }
 
-/* header jumbotron style */
-.jumbotron {
+/* contact section styles */
+.contact-title {
     font-family: 'Bitter', serif;
-    background-color: white;
-    padding: 0;
+    text-align: left;
 }
 
 /* contact section jumbotron style */
 .jumbotron-form {
     font-family: 'Bitter', serif;
     background-color: #F9F4F1;
-    margin: 0 100px 0px 100px;
+    margin: 50px 100px 0px 100px;
     padding: 20px;
     border: solid black 2px;
 }
@@ -44,6 +44,7 @@ a:hover {
 
 .contact-info{
     color: grey;
+    margin-bottom: 0;
 }
 
 .form-control {

@@ -1,5 +1,6 @@
 // const submitBtn = document.getElementById("submitBtn");
 
+// click submit button
   $(function() {
     $('#submitBtn').click(function() {
         console.log("submitted!")
