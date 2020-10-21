@@ -33,13 +33,13 @@ a:hover {
     padding: 0px;
 }
 #contact
-span {
+/* span {
     text-transform: uppercase;
     background-color: black;
     color: white;
     opacity: 80%;
     padding: 0 10px 0 10px;
-}
+} */
 
 .lead {
     margin-bottom: 5px;
@@ -47,12 +47,12 @@ span {
 }
 
 .lead
-span {
+/* span {
     background-color: black;
     opacity: 80%;
     padding: 0 20px 0 20px;
     color: lightblue;
-}
+} */
 
 /* contact form style */
 .col-sm-12 {

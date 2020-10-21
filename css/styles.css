@@ -1,6 +1,7 @@
 /* body style */
 body{
     background-color: white;
+    margin-top: 15px;
 }
 
 /* link styles */
@@ -12,6 +13,7 @@ a:hover {
     color: black;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .nav {
@@ -19,62 +21,55 @@ a:hover {
     background-color: white;
 }
 
-/* header jumbotron style */
-.jumbotron {
+/* about section styles */
+.about {
+    margin-top: 40px;
     font-family: 'Bitter', serif;
-    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-/* about section jumbotron style */
-.jumbotron-about {
+.small {
+    color: grey;
     font-family: 'Bitter', serif;
-    background-color: white;
-    margin: 100px;
-    padding: 0px;
+    font-size: 14px;
+    margin-bottom: 0px;
+
 }
 
-#about-me
-span {
-    text-transform: uppercase;
-    background-color: black;
-    color: white;
-    opacity: 80%;
-    padding: 0 10px 0 10px;
+#text-box {
+    
+    font-family: 'Bitter', serif; 
+    margin-top: 20px;
 }
 
-.lead {
-    margin-bottom: 5px;
-    color: lightblue;
+#hi {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
 }
 
-.lead
-span {
-    background-color: black;
-    opacity: 80%;
-    padding: 0 20px 0 20px;
-    color: lightblue;
-}
-
-/* about me section style */
-
-.col-sm-8
-img {
-    margin:0 auto;
-    display:block;
-}
-
-
-
-.col-sm-12 {
-    font-family: 'Bitter', serif;
-    margin-top: 100px;
-}
-
-.col-sm-12 
-span {
-    font-family: 'Libre Baskerville', serif;
+#name {
     font-weight: bold;
-    font-size: 18px;
+}
+
+#text-top {
+    margin-top: 20px;
+}
+#text-bottom {
+    margin-bottom: 40px;
+}
+
+#about-info {
+    color: #EFF2F7;
+}
+
+/* image style */
+#photo {
+    width: 270px;
+    height: 180px;
+    border: solid 2px black; 
+    margin-bottom: 40px;
 }
 
 /* footer style */
