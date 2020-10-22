@@ -1,4 +1,4 @@
-Portfolio & About Me Page
+#Portfolio & About Me Page
 
 This project consists of an 'about me' page, a 'contact' page, and a 'profile page' highlighting some key attributes about myself. This was completed for Penn LPS Coding Bootcamp.
 This should display resposive bootstrap 4.5 webpages all utilizing rows, columns, grid system, and any other responsive elements.
@@ -8,5 +8,5 @@ This profile will display different uses of that criteria through three simple w
 ![contact](assets/images/contact.png)
 ![portfolio](assets/images/portfolio.png)
 
-Technologies Used
+#Technologies Used
 This consists mostly of HTML, CSS and a basic function via javascript. The contact form needs to be incorporated with JS in the future.  
