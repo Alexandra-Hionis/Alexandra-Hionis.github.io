@@ -4,5 +4,7 @@ This should display resposive bootstrap 4.5 webpages all utilizing rows, columns
 This profile will display different uses of that criteria through three simple webpages. I put a lot of time into it, I hope whoever views it enjoys it!
 
 ![about](assets/images/about.png)
+
 ![contact](assets/images/contact.png)
-![portfolio]()
+
+![portfolio](assets/images/portfolio.png)
