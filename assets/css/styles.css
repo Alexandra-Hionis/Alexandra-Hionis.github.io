@@ -4,13 +4,12 @@ body{
     margin-top: 15px;
     min-height: 400px;
     margin-bottom: 100px;
-    clear: both;
-    
+    clear: both; 
 }
 
 /* link styles */
 a:hover {
-    color: #494f5f;
+    color: lightgrey;
 }
 
 /* nav styles */
@@ -18,7 +17,7 @@ a:hover {
     color: black;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .nav {
