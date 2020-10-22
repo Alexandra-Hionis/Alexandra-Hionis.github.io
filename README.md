@@ -7,3 +7,6 @@ This profile will display different uses of that criteria through three simple w
 ![about](assets/images/about.png)
 ![contact](assets/images/contact.png)
 ![portfolio](assets/images/portfolio.png)
+
+Technologies Used
+This consists mostly of HTML, CSS and a basic function via javascript. The contact form needs to be incorporated with JS in the future.  
