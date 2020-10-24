@@ -1,5 +1,7 @@
 https://alexandra-hionis.github.io/
 
+https://alexandra-hionis.github.io/assets/images/Resume.pdf
+
 #Portfolio & About Me Page
 
 This project consists of an 'about me' page, a 'contact' page, and a 'profile page' highlighting some key attributes about myself. This was completed for Penn LPS Coding Bootcamp.
