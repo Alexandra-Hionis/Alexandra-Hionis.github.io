@@ -37,10 +37,13 @@ a.two:hover {
 }
 
 /* jumbotron style */
-.container {
+.row {
     background-color: white;
 }
 
+#container-one {
+    width: 100%;
+}
 .jumbotron {
     font-family: 'Bitter', serif;
     background-color: white;
@@ -100,15 +103,15 @@ img.stretchy {
     width: 100%; /*Tells image to fit to width of parent container*/
 } 
 .container {
-    width: 53%; /*Use this to control width of the parent container, hence the image*/
+    width: 73%; /*Use this to control width of the parent container, hence the image*/
     background-color: #F9F4F1;
 }
 
 /* contact section jumbotron style */
-.jumbotron-form {
+.jumbotron-portfolio {
     font-family: 'Bitter', serif;
     background-color: #F9F4F1;
-    margin: 50px 100px 0px 100px;
+    margin: 50px 100px 100px 100px;
     padding: 20px;
     border: solid black 2px;
 }
@@ -132,10 +135,19 @@ img.stretchy {
     color: black;
 }
 
-@media only screen and (max-width: 576px) {
-    .carousel-caption {
-        h5 {
-            font-size: 1rem;
-        }
-    }
+#button-row {
+    background-color: #F9F4F1;
+}
+
+.btn-space{
+    margin: 2px;
+}
+
+#tech {
+    width: 50px;
+    height: 50px;
+}
+
+.tech-space {
+    margin-right: 5px;
 }
