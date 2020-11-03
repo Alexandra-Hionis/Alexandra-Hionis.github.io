@@ -135,6 +135,10 @@ img.stretchy {
     color: black;
 }
 
+.carousel-indicators li {
+     visibility: hidden; 
+}
+
 #button-row {
     background-color: #F9F4F1;
 }
