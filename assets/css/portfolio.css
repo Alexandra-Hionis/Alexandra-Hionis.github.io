@@ -103,7 +103,7 @@ img.stretchy {
     width: 100%; /*Tells image to fit to width of parent container*/
 } 
 .container {
-    width: 73%; /*Use this to control width of the parent container, hence the image*/
+    width: 63%; /*Use this to control width of the parent container, hence the image*/
     background-color: #F9F4F1;
 }
 
