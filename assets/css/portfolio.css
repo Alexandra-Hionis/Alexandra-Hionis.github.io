@@ -95,3 +95,47 @@ a.two:hover {
     margin-top: 20px;
     margin-bottom: -2px; 
 }
+
+img.stretchy {
+    width: 100%; /*Tells image to fit to width of parent container*/
+} 
+.container {
+    width: 53%; /*Use this to control width of the parent container, hence the image*/
+    background-color: #F9F4F1;
+}
+
+/* contact section jumbotron style */
+.jumbotron-form {
+    font-family: 'Bitter', serif;
+    background-color: #F9F4F1;
+    margin: 50px 100px 0px 100px;
+    padding: 20px;
+    border: solid black 2px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/* .carousel-text {
+    margin-top: 40px;
+    font-family: 'Bitter', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-caption {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
