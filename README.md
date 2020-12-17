@@ -1,4 +1,4 @@
-https://alexandra-hionis.github.io/
+<!-- https://alexandra-hionis.github.io/ -->
 
 ## Portfolio & About Me Page
 ## Description
@@ -19,10 +19,10 @@ This profile will display different uses of that criteria through three simple w
 N/A
 
 ## Usage
-![about](assets/images/about.png)
+<!-- ![about](assets/images/about.png)
 ![contact](assets/images/contact.png)
 ![portfolio](assets/images/portfolio.png)
-![portfolio](assets/images/portfolio2.png)
+![portfolio](assets/images/portfolio2.png) -->
  
 ## License
 N/A
