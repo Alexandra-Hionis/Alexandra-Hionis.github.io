@@ -32,8 +32,8 @@
  
 
   <!-- start of header section -->
-  <!-- <header class="header">
-    <nav>
+  <header class="header">
+    <!-- <nav>
       <ul class="nav fixed-top justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" href="index.html">About Me</a>
@@ -45,13 +45,35 @@
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
       </ul>
-    </nav>
-  </header> -->
+    </nav> -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4">
+          <ul class="nav fixed-top justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#page2">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
   <!-- end of header section -->
 
   <!-- start of main section -->
   <main>
-    <section class="page1">
+    <section id="page1">
       
     <div class="container1">
       
@@ -84,7 +106,7 @@
     
     </section>
 
-    <section class="page2">
+    <section id="page2">
     <div class="container">
       <div class="row">
         <!-- about me -->

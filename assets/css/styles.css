@@ -9,36 +9,58 @@ html,body
 }
 
 .header {
-    background-color: black;
+    background-color: #4E5772;
 }
 /* link styles */
 a:hover {
-    color: lightgrey;
+    color: #F8DFAE;
 }
 
 /* nav styles */
 .nav-link {
     color: black;
-    font-family: 'Bitter', serif;
+    font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     font-size: 15px;
 }
 
 .nav {
     background: transparent;
-    background-color: white;
+    
 }
 
-.page1 {
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#page1 {
     background-color: #4E5772;
 }
 
-.page2 {
+#page2 {
     background-color: ;
 }
 /* about section styles */
 #section1 {
-    margin: 178px 0 300px 0; 
+    margin: 115px 0 300px 0; 
     display: flex;
     align-items: center;
     /* flex-direction: column; */

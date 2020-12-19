@@ -9,12 +9,17 @@
 
 // const submitBtn = document.getElementById("submitBtn");
 
+$(document).on('click',function(){
+  $('.collapse').collapse('hide');
+})
+
 // click submit button
   $(function() {
     $('#submitBtn').click(function() {
         console.log("submitted!")
     });
 });
+
 
 // Parallax background
 // document.addEventListener("mousemove" , parallax);
