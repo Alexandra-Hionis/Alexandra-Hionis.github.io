@@ -21,7 +21,7 @@ a:hover {
     color: black;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    
 }
 
 .nav {
@@ -208,6 +208,25 @@ section {
    text-align:center;
  }
 
+ .col-sm-4 {
+     background-color: white;
 
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+ }
+
+ 
+ .row-cards {
+    justify-content: center;
+ }
+
+ .portfolio-image-bkgrnd {
+    border-radius: 5%;
+    vertical-align: middle;
+    border-style: none;
+    border: black solid 35px;
+}
 <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
