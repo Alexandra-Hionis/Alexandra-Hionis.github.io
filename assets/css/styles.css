@@ -183,13 +183,7 @@ section {
     margin-bottom: -2px; 
 }
 
-@media only screen and (max-width: 320px) {
 
-    body { 
-       font-size: 2em; 
-    }
- 
- }
 
  #parent-div
  {
