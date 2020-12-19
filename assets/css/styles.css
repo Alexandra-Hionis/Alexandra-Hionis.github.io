@@ -226,15 +226,15 @@ section {
 
 
   /* For Mobile */
-@media screen and (max-width: 540px) {
-    .view {
-        width: 400px;
+  @media only screen and (max-width: 480px){
+    #page1 {
+     height: auto;
     }
-}
+   }
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
-    .view {
+    #page1 {
         width: 600px;
     }
 }
