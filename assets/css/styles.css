@@ -65,6 +65,7 @@ a:hover {
     align-items: center;
     /* flex-direction: column; */
     white-space: nowrap;
+    min-height: 100%;
 }
 
 .shrink img {
