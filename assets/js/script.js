@@ -1,11 +1,11 @@
 // Scroll bar
 
-let progress = document.getElementById('progressbar');
-let totalHeight = document.body.scrollHeight - window.innerHeight;
-window.onscroll = function () {
-  let progressHeight = (window.pageYOffset / totalHeight) * 100;
-  progress.style.height = progressHeight + "%";
-}
+// let progress = document.getElementById('progressbar');
+// let totalHeight = document.body.scrollHeight - window.innerHeight;
+// window.onscroll = function () {
+//   let progressHeight = (window.pageYOffset / totalHeight) * 100;
+//   progress.style.height = progressHeight + "%";
+// }
 
 // const submitBtn = document.getElementById("submitBtn");
 
@@ -16,7 +16,17 @@ window.onscroll = function () {
     });
 });
 
+// Parallax background
+// document.addEventListener("mousemove" , parallax);
+// function parallax(e){
+//   this.querySelectorAll('.layer').forEach(layer => {
+//     const speed = layer.getAttribute('data-speed')
+//     const x = (window.innerwidth - e.pageX*speed)
+//     const x = (window.innerwidth - e.pageY*speed)
 
+//     layer.style.transform = 'translateX(${x}px) translateY(${y}px)'
+//   })
+// }
 
 // // Name and Email validation Function.
 // function validation(){
@@ -33,3 +43,28 @@ window.onscroll = function () {
 //     return true;
 //     }
 //     }
+
+// rotator
+// const text = document.getElementById('text');
+// const word = text.getElementsByTagName('span');
+
+// const i = 0;
+
+// function rotator() {
+//   word[i].style.display = 'none';
+//   i = (i + 1) % word.length;
+//   word[i].style.display = 'initial';
+// }
+// setInterval(rotator, 800);
+
+var body=document.getElementsByTagName("body")[0];
+var parent=document.getElementById("parent-div");
+var child=document.getElementById("child-div");
+body.onscroll = function(){
+//console.log(documenhttps://fiddle.jshell.net/3urv0tp0/#tidyt.getElementById("child-div").style.top)
+if(document.documentElement.scrollTop>=child.offsetTop)//Adjust Tolerance as you want
+{
+   child.style.display="block"
+}
+
+};

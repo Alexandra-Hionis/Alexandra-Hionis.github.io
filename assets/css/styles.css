@@ -1,66 +1,11 @@
-/* Scroll bar style */
-::-webkit-scrollbar
-{
-    width: 0;  
-}
-
-#scrollPath {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.05);
-}
-
-#progressbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 10px;
-    background: linear-gradient(to top, #008aff,#00ffe7);
-    animation: animate 5s linear infinite;
-}
-
-@keyframes animate
-{
-    0%,100%
-    {
-        filter: hue-rotate(0deg);
-    }
-    50%
-    {
-        filter: hue-rotate(360deg);
-    }
-}
-
-#progressbar:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 100%;
-    background: linear-gradient(to top, #008aff,#00ffe7);
-    filter: blur(30px);
-}
-
-#progressbar:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 100%;
-    background: linear-gradient(to top, #008aff,#00ffe7);
-    filter: blur(30px);
-}
-
 /* body style */
-body {
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both; 
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .header {
@@ -85,16 +30,36 @@ a:hover {
 }
 
 .page1 {
-    background-color: white;
+    background-color: #4E5772;
 }
 
+.page2 {
+    background-color: ;
+}
 /* about section styles */
 #section1 {
-    margin: 280px 0 480px 0; 
+    margin: 178px 0 300px 0; 
     display: flex;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    white-space: nowrap;
+}
+
+.shrink img {
+    transition: 1s ease;
+}
     
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .about {
@@ -122,20 +87,22 @@ a:hover {
     width: 90%;
 }
 
-#big-hi {
-    font-family: 'Inconsolata', monospace;
-    fill: #e5e5e5;
-	stroke: #f06;
-    stroke-width: 1.85;
-    font-size: 210px;
-}
+#name-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    /* color: #FED2AF; */
+    color: #F8DFAE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 
-#cursive-name {
-    font-family: 'Cedarville Cursive', cursive;
-    font-size: 35px;
-    color: black;
+.arrows {
+    width: 25%;
+    height: auto;
+    margin-left: 0px;
 }
-
 #hi {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 40px;
@@ -168,9 +135,11 @@ a:hover {
 /* footer style */
 .navbar {
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     font-family: 'Bitter', serif;
     padding: 0;
+    background: transparent;
+
 }
 
 /* social media icons footer */
@@ -178,7 +147,7 @@ a:hover {
     width: 32px;
     height: 32px;
     padding: 0px;
-    margin: 15px;
+    margin: 8px;
     margin-top: 10px;
 }
 
@@ -190,3 +159,33 @@ a:hover {
     margin-top: 20px;
     margin-bottom: -2px; 
 }
+
+@media only screen and (max-width: 320px) {
+
+    body { 
+       font-size: 2em; 
+    }
+ 
+ }
+
+ #parent-div
+ {
+   position:relative;
+   height:2000px;
+   width:300px;
+   background-color:tan;
+ }
+ 
+ #child-div
+ {
+   color:white;
+   position:relative;
+   top:1000px;
+   width:300px;
+   display:none;
+   text-align:center;
+ }
+
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
