@@ -56,16 +56,20 @@ a:hover {
 }
 
 #page2 {
-    background-color: ;
+    background-color: #F2D0CA;
+    position: relative;
+    text-align: left;
+    color: white;
 }
-/* about section styles */
+/* section styles */
+
 #section1 {
-    margin: 115px 0 300px 0; 
+    /* margin: 0px 0 0px 0;  */
     display: flex;
     align-items: center;
     /* flex-direction: column; */
     white-space: nowrap;
-    min-height: 100%;
+    height: 100vh;
 }
 
 .shrink img {
@@ -79,25 +83,18 @@ a:hover {
     transition: 1s ease;
 }
 
-section {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 .about {
     margin-top: 40px;
-    font-family: 'Bitter', serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .small {
     color: grey;
     font-family: 'Bitter', serif;
-    font-size: 14px;
-    margin-bottom: 0px;
+    font-size: 2vw;
+    /* color: #FED2AF; */
+    color: #1C42D8;
+    display: flex;
+    
 
 }
 
@@ -125,6 +122,18 @@ section {
     width: 25%;
     height: auto;
     margin-left: 0px;
+}
+
+#about-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    /* color: #FED2AF; */
+    color: #1C42D8;
+    /* position: absolute;
+    display: flex; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #hi {
     font-family: 'Cedarville Cursive', cursive;
@@ -190,7 +199,7 @@ section {
    position:relative;
    height:2000px;
    width:300px;
-   background-color:tan;
+   background-color:#E0C5B1;
  }
  
  #child-div
@@ -225,7 +234,7 @@ section {
 }
 
 
-  /* For Mobile */
+  /* For Mobile
   @media only screen and (max-width: 480px){
     #page1 {
      height: auto;
@@ -233,11 +242,12 @@ section {
    }
 
 /* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
+/* @media screen and (min-width: 540px) and (max-width: 780px) {
     #page1 {
         width: 600px;
     }
-}
+} */ 
   
-<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
