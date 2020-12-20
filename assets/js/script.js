@@ -67,7 +67,7 @@ const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
   // set threshold so columns are there before they start to fade in. Once the entire thing is visible.
-  threshold: 1
+  threshold: 0.5
 };
 
 const appearOnScroll = new IntersectionObserver 
