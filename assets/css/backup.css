@@ -1,3 +1,320 @@
+/* body style */
+
+body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.header {
+    background-color: #494A4A;
+}
+/* link styles */ 
+a:hover {
+    color: #F8DFAE;
+}
+
+/* nav styles */
+.nav-link {
+    color: #A8D3D1;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+
+.nav {
+    background: transparent;
+    
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    /* margin-top: 20px; */
+    cursor: pointer;
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#page1 {
+    background-color: ivory; 
+     /* margin: 0px 0 0px 0;  */
+     align-items: center;
+     /* flex-direction: column; */
+     white-space: nowrap;
+     height: 100vh;
+} 
+
+#page2 {
+    background-color: #A8D4D1;
+    position: relative;
+    text-align: left;
+    /* height: 100vh; */
+}
+
+#me-image {
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+/* 
+#photo {
+    width: 50%;
+} */
+
+/* section styles */
+
+.shrink img {
+    transition: 1s ease;
+}
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+/* .about {
+    margin-top: 40px;
+} */
+
+.small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    /* color: #FED2AF; */
+    color: black;
+    display: flex;
+    
+
+}
+
+#text-box {
+    font-family: 'Bitter', serif; 
+    margin-top: 20px;
+}
+
+.text-width {
+    width: 90%;
+}
+
+#name-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    /* color: #FED2AF; */
+    color: #A8D3D1;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    }
+
+.arrows {
+    width: 25%;
+    height: auto;
+    margin-left: 0px;
+}
+
+.about-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.7vw;
+    text-transform: uppercase;
+    color: #EEFDEA;
+    
+    /* position: absolute;
+    display: flex; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hi {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#text-top {
+    margin-top: 20px;
+}
+
+#text-bottom {
+    margin-bottom: 40px;
+}
+
+#about-info {
+    color: #EFF2F7;
+}
+
+/* image style */
+#photo {
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    
+}
+
+/* footer & copyright style */
+.navbar {
+    display: flex;
+    justify-content:flex-end;
+    /* font-family: 'Bitter', serif; */
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background: transparent;
+
+}
+
+/* social media icons footer */
+.social-icons {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 10px 8px 8px 8px;
+}
+
+/* copyright footer */
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+    margin: 20px 0 -2px 0
+}
+
+
+
+ #parent-div
+ {
+   position:relative;
+   height:2000px;
+   width:300px;
+   background-color:#E0C5B1;
+ }
+ 
+ #child-div
+ {
+   color:white;
+   position:relative;
+   top:1000px;
+   width:300px;
+   display:none;
+   text-align:center;
+ }
+
+ .thumbnails {
+   padding-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+
+}
+
+ .portfolio-image {
+    border-radius: 5%;
+    vertical-align: middle;
+    border: black solid 15px;
+}
+
+
+.columns {
+    display: flex;
+}
+
+.col + .col {
+    margin-left: 1.5em;
+    /* margin-bottom: 150px; */
+}
+
+.learner-solver-dreamer-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    /* color: #FED2AF; */
+    color: black;
+}
+
+.learner-solver-dreamer-header {
+    font-family: 'Rubik', sans-serif;
+    color: #EEFDEA;
+    font-size: 3vh;
+}
+
+#word-wrap {
+    white-space: nowrap;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.from-left {
+    grid-column: 2 / 3;
+}
+
+#about-card {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+/* @media (max-width:629px) {
+    img#optionalstuff {
+      display: none;
+    }
+  }
+
+  @media (max-width:629px) {
+    img#me-image{
+      display: none;
+    }
+  } */
+  
+
+/* @media (min-width: 1200px) {
+.container {
+    max-width: 3000px;
+}
+}
+@media (min-width: 992px) {
+.container {
+    max-width: 960px;
+} 
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+}
+}  */
+
+#page2-section {
+    background-color: ivory;
+}
+<div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -120,21 +437,21 @@
           <p class="small">Who I am, what I do and get connected.</p> <br>
         </div>
         <div class="row columns">
-          <div class="col fade-in about-section-font fade-margins">
-            <h3 class="about-section-header">Learner</h3>
-            <p>
-            Recent graduate from Penn LPS Coding Bootcamp. Previously, I earned a bachelor's in Psychology with a minor in Business from Temple University. I started self teaching myself code about a year ago and have fallen in love with it. 
-            </p>
-          </div>
-
-          <div class="col fade-in about-section-font fade-margins">
-            <h3 class="about-section-header" id="word-wrap">Problem Solver</h3>
+          <div class="col fade-in learner-solver-dreamer-font fade-margins">
+            <h3 class="learner-solver-dreamer-header">Learner</h3>
             <p>
               Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
             </p>
           </div>
-          <div class="col fade-in about-section-font fade-margins">
-            <h3 class="about-section-header">Dreamer</h3>
+
+          <div class="col fade-in learner-solver-dreamer-font fade-margins">
+            <h3 class="learner-solver-dreamer-header" id="word-wrap">Problem Solver</h3>
+            <p>
+              Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div>
+          <div class="col fade-in learner-solver-dreamer-font fade-margins">
+            <h3 class="learner-solver-dreamer-header">Dreamer</h3>
             <p>
               Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
             </p>
@@ -145,44 +462,59 @@
 
     <section id="page2-section">
 
-      <!-- <div class="about">
-      <div class="about-content row">
-        <div class="col-sm-4">
-          <img id="photo" src="assets/images/my-photo.JPG" alt="image of me">
-        </div>
-        <div class="col-sm-8">
-          <div class="text">
-            <h3 class="">Hi, I'm Alexandra</h3>
-            <p>
-              Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
+      <div class="about">
+          <div class="about-content row">
+            <div class="col-6">
+              <img id="photo" src="assets/images/my-photo.JPG" alt="image of me">
+            </div>
+            <div class="col-6">
+              <div class="text">
+                <h3 class="">Hi, I'm Alexandra</h3>
+                <p>
+                  Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div> -->
-
-    <div class="home-more-stuff">
-      <div class="more-stuff-grid">
-        <img
-        img id="photo" src="assets/images/my-photo.JPG" alt="image of me"
-          class="slide-in from-left"
-        />
-        <p><span class="about-font slide-in from-right"> Hi, I'm Alexandra </span></p>
-        <p class="slide-in from-right about-section-font">
-          I am an aspiring full stack web developer, with focus on front end development. I love to apply my psychology background to build a more intuitive user experience on the web. With each project, my aim is to best engage my audience for an impactful user experience, both visually and behind the scenes.
-        </p>
-      </div>
       
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card" id="about-card" style="width: 20rem;">
+          <div class="card-body">
+            <img id="photo" src="assets/images/my-photo.JPG" class="mr-3" alt="image of me">
+          </div>
+        </div>
+        </div>
 
-     
+        <div class="col-sm-6">
+          <div class="card" id="about-card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">Hi, I'm Alexandra</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+        </div> -->
+
+
+
+        
+
+
+      <!-- </div>
+    </div> -->
     <!-- <div class="container">
       <div class="row">
         <div class="col-12 about">
           <h3><span id="hi">Hi! </span> I'm Alexandra</h3>
           <p class="small">Full Stack Web Developer</p>
           <p id="text-top">My full name is Alexandra Hionis. I am 28 years old and I live in West Chester, Pennsylvania.
-            I am an aspiring full stack web developer with a focus on front-end web development. and I am hoping to gain insight on what it takes to become a
+            I am an aspiring full stack web developer and I am hoping to gain insight on what it takes to become a
             professional in the tech industry. I've earned a bachelor's in Psychology with a minor in Business from
             Temple University. It was during my education I realized my love for problem solving, being detail oriented,
             and pursuing a creative vision. Furthermore, the subdiscipline of psychology comes in effect with the field

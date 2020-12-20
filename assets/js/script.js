@@ -64,6 +64,11 @@ $(document).on('click',function(){
 
 // Multiple, not just one item so I use querySelectorAll. Anything with the class 'fade-in'
 const faders = document.querySelectorAll('.fade-in');
+const header = document.querySelector("header");
+const sectionOne = document.querySelector(".home-intro");
+
+
+const sliders = document.querySelectorAll(".slide-in");
 
 const appearOptions = {
   // Want to make sure all columns are in the page. Once all columns are visible to the intersection observer, they will fade in
@@ -92,3 +97,6 @@ faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
 
+sliders.forEach(slider => {
+  appearOnScroll.observe(slider);
+});
