@@ -240,15 +240,15 @@ a:hover {
     max-width: 3000px;
 }
 
-/* @media (min-width: 992px)
+/* @media (min-width: 992px) */
 .container {
     max-width: 960px;
-} */
+} 
 
-/* @media (min-width: 576px)
+/* @media (min-width: 576px) */
 .container {
     max-width: 540px;
-} */
+} 
 
 .columns {
     display: flex;
