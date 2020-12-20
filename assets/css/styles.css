@@ -219,9 +219,7 @@ a:hover {
    text-align:center;
  }
 
- .col-sm-4 {
-    background-color: white;
-
+ .thumbnails {
    padding-bottom: 50px;
    padding-left: 50px;
    padding-right: 50px;
@@ -235,20 +233,6 @@ a:hover {
 }
 
 
-/* @media (min-width: 1200px) */
-.container {
-    max-width: 3000px;
-}
-
-/* @media (min-width: 992px) */
-.container {
-    max-width: 960px;
-} 
-
-/* @media (min-width: 576px) */
-.container {
-    max-width: 540px;
-} 
 
 .columns {
     display: flex;
@@ -284,7 +268,7 @@ a:hover {
     opacity: 1;
 }
 
-@media (max-width:629px) {
+/* @media (max-width:629px) {
     img#optionalstuff {
       display: none;
     }
@@ -294,7 +278,24 @@ a:hover {
     img#me-image{
       display: none;
     }
-  }
+  } */
   
 
+/* @media (min-width: 1200px) {
+.container {
+    max-width: 3000px;
+}
+}
+@media (min-width: 992px) {
+.container {
+    max-width: 960px;
+} 
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+}
+}  */
+
 <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
