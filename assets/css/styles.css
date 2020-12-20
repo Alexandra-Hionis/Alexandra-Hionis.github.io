@@ -238,7 +238,7 @@ a:hover {
     display: flex;
 }
 
-.fade-margins + .fade-margins {
+.col + .col {
     margin-left: 1.5em;
 }
 
