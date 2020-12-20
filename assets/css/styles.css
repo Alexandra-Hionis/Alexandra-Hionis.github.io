@@ -53,7 +53,7 @@ a:hover {
 }
 
 #page1 {
-    background-color: #494A4A; 
+    background-color: ivory; 
      /* margin: 0px 0 0px 0;  */
      align-items: center;
      /* flex-direction: column; */
@@ -125,7 +125,7 @@ a:hover {
     }
 
 .arrows {
-    width: 30%;
+    width: 25%;
     height: auto;
     margin-left: 0px;
 }
@@ -283,5 +283,18 @@ a:hover {
 .fade-in.appear {
     opacity: 1;
 }
+
+@media (max-width:629px) {
+    img#optionalstuff {
+      display: none;
+    }
+  }
+
+  @media (max-width:629px) {
+    img#me-image{
+      display: none;
+    }
+  }
+  
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
