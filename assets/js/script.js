@@ -62,4 +62,29 @@ $(document).on('click',function(){
 // }
 // setInterval(rotator, 800);
 
+// Multiple, not just one item so I use querySelectorAll. Anything with the class 'fade-in'
+const faders = document.querySelectorAll('.fade-in');
 
+const appearOptions = {
+  // set threshold so columns are there before they start to fade in. Once the entire thing is visible.
+  threshold: 1
+};
+
+const appearOnScroll = new IntersectionObserver 
+(function(entries,appearOnScroll) {
+  entries.forEach(entry => {
+    // if false then entry is intersection. Intersection observer, whether or not it's intersecting, is going to fire as soon as the page loads.
+    if(!entry.isIntersecting) {
+      return;
+    } else {
+      // stops looking once it's done its job
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+}, 
+appearOptions
+);
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
