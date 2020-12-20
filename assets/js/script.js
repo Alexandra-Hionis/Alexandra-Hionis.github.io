@@ -66,8 +66,11 @@ $(document).on('click',function(){
 const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
-  // set threshold so columns are there before they start to fade in. Once the entire thing is visible.
-  threshold: 0.5
+  // Want to make sure all columns are in the page. Once all columns are visible to the intersection observer, they will fade in
+  threshold: 0.5,
+  // Add a root margin so once were 100 pixels from the bottom, it appears
+  // Enhances the fade in expereince so it doesn't happen right when we get to the page
+  rootMargin: "0px 0px -100px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver 
@@ -88,3 +91,4 @@ appearOptions
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+

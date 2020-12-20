@@ -1,6 +1,6 @@
 /* body style */
 
-html,body
+body
 {
     width: 100%;
     margin: 0px;
@@ -24,13 +24,14 @@ a:hover {
     
 }
 
+
 .nav {
     background: transparent;
     
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     cursor: pointer;
     border: none;
 }
@@ -75,7 +76,10 @@ a:hover {
     margin-top: 60px;
     margin-left: 140px;
 }
-
+/* 
+#photo {
+    width: 50%;
+} */
 
 /* section styles */
 
@@ -90,9 +94,9 @@ a:hover {
     transition: 1s ease;
 }
 
-.about {
+/* .about {
     margin-top: 40px;
-}
+} */
 
 .small {
     font-family: 'Montserrat', sans-serif;
@@ -130,11 +134,10 @@ a:hover {
     margin-left: 0px;
 }
 
-#about-font {
+.about-font {
     font-family: 'Rubik', sans-serif;
     font-size: 3.7vw;
-    /* font-size: 5em; */
-    /* color: #FED2AF; */
+    text-transform: uppercase;
     color: #EEFDEA;
     
     /* position: absolute;
@@ -166,10 +169,10 @@ a:hover {
 
 /* image style */
 #photo {
-    width: 270px;
-    height: 180px;
-    border: solid 2px black; 
-    margin-bottom: 40px;
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    
 }
 
 /* footer & copyright style */
@@ -233,13 +236,13 @@ a:hover {
 }
 
 
-
 .columns {
     display: flex;
 }
 
 .col + .col {
     margin-left: 1.5em;
+    /* margin-bottom: 150px; */
 }
 
 .learner-solver-dreamer-font {
@@ -268,6 +271,14 @@ a:hover {
     opacity: 1;
 }
 
+/* .from-left {
+    grid-column: 2 / 3;
+} */
+
+#about-card {
+    margin-top: 40px;
+    margin-left: 20px;
+}
 /* @media (max-width:629px) {
     img#optionalstuff {
       display: none;
@@ -297,5 +308,8 @@ a:hover {
 }
 }  */
 
+#page2-section {
+    background-color: ivory;
+}
 <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
