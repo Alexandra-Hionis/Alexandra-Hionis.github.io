@@ -30,6 +30,7 @@ a:hover {
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
+    margin-top: 20px;
     cursor: pointer;
     border: none;
 }
@@ -53,6 +54,12 @@ a:hover {
 
 #page1 {
     background-color: #4E5772;
+     /* margin: 0px 0 0px 0;  */
+     display: flex;
+     align-items: center;
+     /* flex-direction: column; */
+     white-space: nowrap;
+     height: 100vh;
 }
 
 #page2 {
@@ -60,17 +67,9 @@ a:hover {
     position: relative;
     text-align: left;
     color: white;
+    /* height: 100vh; */
 }
 /* section styles */
-
-#section1 {
-    /* margin: 0px 0 0px 0;  */
-    display: flex;
-    align-items: center;
-    /* flex-direction: column; */
-    white-space: nowrap;
-    height: 100vh;
-}
 
 .shrink img {
     transition: 1s ease;
@@ -88,9 +87,8 @@ a:hover {
 }
 
 .small {
-    color: grey;
     font-family: 'Bitter', serif;
-    font-size: 2vw;
+    font-size: 2vh;
     /* color: #FED2AF; */
     color: #1C42D8;
     display: flex;
@@ -119,7 +117,7 @@ a:hover {
     }
 
 .arrows {
-    width: 25%;
+    width: 30%;
     height: auto;
     margin-left: 0px;
 }
@@ -127,6 +125,7 @@ a:hover {
 #about-font {
     font-family: 'Rubik', sans-serif;
     font-size: 5vw;
+    /* font-size: 5em; */
     /* color: #FED2AF; */
     color: #1C42D8;
     /* position: absolute;
@@ -213,41 +212,59 @@ a:hover {
  }
 
  .col-sm-4 {
-     background-color: white;
+    background-color: white;
 
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
 
- }
+}
 
- 
- .row-cards {
-    justify-content: center;
- }
-
- .portfolio-image-bkgrnd {
+ .portfolio-image {
     border-radius: 5%;
     vertical-align: middle;
-    border-style: none;
-    border: black solid 35px;
+    border: black solid 15px;
 }
 
 
-  /* For Mobile
-  @media only screen and (max-width: 480px){
-    #page1 {
-     height: auto;
-    }
-   }
+/* @media (min-width: 1200px) */
+.container {
+    max-width: 3000px;
+}
 
-/* For Tablets */
-/* @media screen and (min-width: 540px) and (max-width: 780px) {
-    #page1 {
-        width: 600px;
-    }
-} */ 
-  
+/* @media (min-width: 992px)
+.container {
+    max-width: 960px;
+} */
 
+/* @media (min-width: 576px)
+.container {
+    max-width: 540px;
+} */
+
+.columns {
+    display: flex;
+}
+
+.col + .col {
+    margin-left: 1.5em;
+}
+
+.learner-solver-dreamer-font {
+    font-family: 'Bitter', serif;
+    font-size: 2vh;
+    /* color: #FED2AF; */
+    color: #1C42D8;
+}
+
+.learner-solver-dreamer-header {
+    font-family: 'Rubik', sans-serif;
+    color: #1C42D8;
+    font-size: 5vh;
+}
+
+#word-wrap {
+    white-space: nowrap;
+}
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
