@@ -97,16 +97,17 @@ a:hover {
     transition: 1s ease;
 }
 
-/* .about {
+.about {
     margin-top: 40px;
-} */
+    text-align: center;
+}
 
 .small {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
     /* color: #FED2AF; */
     color: black;
-    display: flex;
+    text-align: center;
     
 
 }
@@ -223,6 +224,17 @@ a:hover {
 .col + .col {
     margin-left: 1.5em;
 }
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 90%;
+    margin: 35px;
+}
+
 .about-section-font {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
@@ -232,7 +244,7 @@ a:hover {
 .about-section-header {
     font-family: 'Rubik', sans-serif;
     color: #EEFDEA;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 #word-wrap {
     white-space: nowrap;
