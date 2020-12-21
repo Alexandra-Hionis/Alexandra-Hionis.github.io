@@ -2,34 +2,27 @@
 
 ## Portfolio & About Me Page
 ## Description
- This project consists of an 'about me' page, a 'contact' page, and a 'profile page' highlighting some key attributes about myself. This was completed for Penn LPS Coding Bootcamp.
-This should display resposive bootstrap 4.5 webpages all utilizing rows, columns, grid system, and any other responsive elements.
-This profile will display different uses of that criteria through three simple webpages. I put a lot of time into it, I hope whoever views it enjoys it!
+ This project consists of an 'about me' page, a 'contact' page, and a 'project page' highlighting some key attributes about myself. It uses html, css and javascript. This should display resposive bootstrap 4.5 webpages all utilizing rows, columns, grid system, and any other responsive elements. I added in a mix of css and javascript animations to make it more interactive. I put a lot of time into it, I hope whoever views it enjoys it!
 
 ## Table of Contents
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
-## Installation
-N/A
-
 ## Usage
-<!-- ![about](assets/images/about.png)
-![contact](assets/images/contact.png)
-![portfolio](assets/images/portfolio.png)
-![portfolio](assets/images/portfolio2.png) -->
+![main](assets/images/landing-page.png)
+![about](assets/images/about.png)
+![portfolio](assets/images/projects.png)
+![contact](assets/images/contact-page.png)
+
  
-## License
-N/A
 ## Contributing
 [Alexandra Hionis](https://github.com/Alexandra-Hionis/README-Generator)
-## Tests
-No tests were used
+
+Referenced work by [Kevin Powell](https://www.youtube.com/watch?v=huVJW23JHKQ) on youtube. Great inspriation for my website and learned a lot from it.
+
 ## Questions
 GitHub: https://github.com/Alexandra-Hionis<br /><br />
 Email: Alexandra.hionis@gmail.com<br /><br />

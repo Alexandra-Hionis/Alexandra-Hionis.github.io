@@ -1,19 +1,4 @@
 
-
-// rotator
-// const text = document.getElementById('text');
-// const word = text.getElementsByTagName('span');
-
-// const i = 0;
-
-// function rotator() {
-//   word[i].style.display = 'none';
-//   i = (i + 1) % word.length;
-//   word[i].style.display = 'initial';
-// }
-// setInterval(rotator, 800);
-
-// Multiple, not just one item so I use querySelectorAll. Anything with the class 'fade-in'
 const faders = document.querySelectorAll('.fade-in');
 const header = document.querySelector("header");
 const sectionOne = document.querySelector(".home-intro");

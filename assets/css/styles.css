@@ -89,9 +89,23 @@ a:hover {
     background-color: #A8D4D1;
     position: relative;
     text-align: left;
-    padding-bottom: 4000px;
+    padding-bottom: 400px;
     height: 100vh;
 }
+
+#portfolio-grid {
+    background-color: ivory;
+}
+
+#about-grid {
+    background-color: #A8D3D1;
+
+}
+
+#contact-grid {
+    background-color: #A8D3D1;;
+}
+
 
 /* image styles */
 
@@ -187,6 +201,10 @@ a:hover {
     border: black solid 15px;
 }
 
+.umewe-margin {
+    margin-right: 20px;
+}
+
 /* contact section */
 
 .contact {
@@ -230,8 +248,6 @@ a:hover {
 .navbar {
     display: flex;
     justify-content:flex-end;
-    /* font-family: 'Bitter', serif; */
-    font-family: 'Montserrat', sans-serif;
     padding: 0;
     background: transparent;
 }
@@ -247,9 +263,10 @@ a:hover {
 
 #copyright {
     text-align: center;
-    font-size: 10px;
-    padding-top: 0px;
-    margin: 20px 0 -2px 0
+    background-color: #A8D4D1;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vh;
+    margin-bottom: -5px;
 }
 
 /* @media (min-width: 1200px) */
@@ -257,6 +274,7 @@ a:hover {
     max-width: 3000px;
 }
 
+/* js fade in animation */
 
 .columns {
     display: flex;
@@ -335,25 +353,6 @@ a:hover {
     align-items: center;
     grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax( 1em, 1fr );
 }
-
-#portfolio-grid {
-    background-color: ivory;
-}
-
-#about-grid {
-    background-color: #A8D3D1;
-
-}
-
-#contact-grid {
-    background-color: #A8D3D1;;
-}
-
-
-#umewe-margin {
-    margin-right: 20px;
-}
-
 
   /* For mobile phones: */
 [class*="col-"] {
@@ -442,3 +441,7 @@ border-radius: 0px !important;
     margin-left: 30px;
 }
 
+
+.back-to-top {
+    margin-top: -25px;
+}
