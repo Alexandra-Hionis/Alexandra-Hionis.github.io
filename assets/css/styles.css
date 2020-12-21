@@ -67,14 +67,10 @@ a:hover {
     /* height: 100vh; */
 }
 
-
-/* #page2 {
-    background-color: #A8D3D1;
-    background-color: #A8D4D1;
-    position: relative;
-    text-align: left;
-    /* height: 100vh; 
-/* } */
+#page3{
+    padding-top: 50px;
+    background-color: ivory; 
+}
 
 #me-image {
     vertical-align: middle;
@@ -102,14 +98,27 @@ a:hover {
     text-align: center;
 }
 
+.portfolio {
+    text-align: center;
+    color: #A8D4D1;
+    margin-bottom: 10%;
+}
+.portfolio-font {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #A8D4D1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .small {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
     /* color: #FED2AF; */
     color: black;
     text-align: center;
-    
-
 }
 #text-box {
     font-family: 'Bitter', serif; 
@@ -122,7 +131,6 @@ a:hover {
 #name-font {
     font-family: 'Rubik', sans-serif;
     font-size: 5vw;
-    /* color: #FED2AF; */
     color: #A8D3D1;
     position: absolute;
     top: 50%;
@@ -138,12 +146,9 @@ a:hover {
 
 .about-font {
     font-family: 'Rubik', sans-serif;
-    font-size: 3.7vw;
+    font-size: 4vw;
     text-transform: uppercase;
     color: #EEFDEA;
-    
-    /* position: absolute;
-    display: flex; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -155,12 +160,12 @@ a:hover {
 #name {
     font-weight: bold;
 }
-#text-top {
+/* #text-top {
     margin-top: 20px;
 }
 #text-bottom {
     margin-bottom: 40px;
-}
+} */
 #about-info {
     color: #EFF2F7;
 }
@@ -196,10 +201,10 @@ a:hover {
     margin: 20px 0 -2px 0
 }
 
- .col-sm-4 {
-   padding-bottom: 50px;
-   padding-left: 50px;
-   padding-right: 50px;
+ .thumbnails {  
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
  .portfolio-image {
     border-radius: 5%;
@@ -305,6 +310,8 @@ a:hover {
     align-items: center;
     grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax( 1em, 1fr );
 }
+
+
 
   /* For mobile phones: */
 [class*="col-"] {
