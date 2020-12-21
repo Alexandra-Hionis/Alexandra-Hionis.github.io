@@ -19,7 +19,7 @@ a:hover {
 /* nav styles */
 .nav-link {
     color: black;
-    color: #A8D3D1;
+    color: #EEFDEA;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
 
@@ -332,13 +332,27 @@ a:hover {
   }
 
   .more-stuff-grid {
-    background: #A8D4D1;
+    
     padding: 4em 0;
     display: grid;
     grid-gap: 2em;
     align-items: center;
     grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax( 1em, 1fr );
 }
+
+#portfolio-grid {
+    background-color: ivory;
+}
+
+#about-grid {
+    background-color: #A8D3D1;
+
+}
+
+#contact-grid {
+    background-color: #A8D3D1;;
+}
+
 
 
 
@@ -363,24 +377,19 @@ a:hover {
     .col-12 {width: 100%;}
   }
 
-  h1, h2, h3, h4, h5, h6{
-    color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 700;
-  margin: 0 0 30px 0;
-}
-#fh5co-main {
+
+/* #fh5co-main {
   
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-}
-#fh5co-main .fh5co-narrow-content {
+} */
+/* #fh5co-main .fh5co-narrow-content {
   position: relative;
   width: 80%;
   margin: 0 auto;
   padding: 4em 0;
-}
+} */
 .form-control{
      -webkit-appearance: none;
   -moz-appearance: none;
@@ -408,3 +417,19 @@ a:hover {
   border: 2px solid #da1212 !important;
 border-radius: 0px !important;
 }
+
+
+.form-control {
+    border: 2px solid black !important;
+ 
+}
+
+.contact-grid {
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
