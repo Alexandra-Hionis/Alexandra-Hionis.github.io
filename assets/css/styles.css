@@ -12,6 +12,23 @@ a:hover {
     color: #EEFDEA;
 }
 
+/* header styles */
+.header {
+    background-color: #494A4A;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
 /* nav styles */
 .nav-link {
     color: black;
@@ -22,10 +39,10 @@ a:hover {
 }
 
 .nav {
-    background-color: #494A4A;
+    background: #494A4A;
     
 }
-/* 
+
 .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
     border: none;
@@ -46,7 +63,7 @@ a:hover {
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
-} */
+}
 
 /* page styles */
 
@@ -97,7 +114,7 @@ a:hover {
     transition: 1s ease;
 }
 
-#photo {
+.photo {
     object-fit: cover;
     border: solid 2px black; 
     width: 90%;
@@ -109,6 +126,9 @@ a:hover {
     margin-left: 0px;
 }
 
+#contact-img {
+    border: none;
+}
 /* about section */
 
 .about {
@@ -404,7 +424,7 @@ border-radius: 0px !important;
 
 
 .form-control {
-    border: 2px solid black !important;
+    border: 2px solid grey !important;
  
 }
 
@@ -417,9 +437,8 @@ border-radius: 0px !important;
     margin: 10%;
 }
 
-#form-info {
-    border: black 2px solid;
-    padding: 15px;
+.textarea-background{
     background-color: ivory;
+    margin-left: 30px;
 }
 

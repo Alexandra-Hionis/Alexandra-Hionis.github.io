@@ -31,9 +31,13 @@
 <body>
 
   <!-- start of header section -->
-  <header class="header">
-          <div>
-          <ul class="nav fixed-top justify-content-start">
+  <header class="header" id="myHeader">
+  
+    <!-- Nav -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="p-4">
+          <ul class="nav fixed-top justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" href="index.html#page2">About Me</a>
             </li>
@@ -45,6 +49,13 @@
             </li>
           </ul>
         </div>
+      </div>
+      <nav class="navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
   </header>
   <!-- end of header section -->
 
@@ -117,15 +128,12 @@
         </div>
         </div>
       </div>
-      
-    
   
 
     <div class="home-more-stuff">
       <div id="about-grid" class="more-stuff-grid">
-        <img
-        img id="photo" src="assets/images/my-photo.JPG" alt="image of me"
-          class="slide-in from-left"
+        <img src="assets/images/my-photo.JPG" alt="image of me"
+          class="slide-in from-left photo"
         />
         <p><span class="about-font slide-in from-right"> Hi, I'm Alexandra </span></p>
         <p class="slide-in from-right about-section-font">
@@ -157,8 +165,8 @@
     
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/UMEWE.png" alt="thubnail"
-            class="slide-in from-left"
+          <img src="assets/images/UMEWE.png" alt="thubnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -181,8 +189,8 @@
 
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/burger.png" alt="thubnail"
-            class="slide-in from-left"
+          <img src="assets/images/burger.png" alt="thubnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -205,8 +213,8 @@
 
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/outofoffice.png" alt="thumbnail"
-            class="slide-in from-left"
+          <img src="assets/images/outofoffice.png" alt="thumbnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -229,8 +237,8 @@
 
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/planner.png" alt="thumbnail"
-            class="slide-in from-left"
+          <img src="assets/images/planner.png" alt="thumbnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -252,8 +260,8 @@
     
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/quiz.png" alt="thumbnail"
-            class="slide-in from-left"
+          <img src="assets/images/quiz.png" alt="thumbnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -275,8 +283,8 @@
     
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/password.png" alt="thumbnail"
-            class="slide-in from-left"
+          <img src="assets/images/password.png" alt="thumbnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -297,8 +305,8 @@
 
       <div class="row">
         <div class="col-sm-6 portfolio">
-          <img id="photo" src="assets/images/weather.png" alt="thumbnail"
-            class="slide-in from-left"
+          <img src="assets/images/weather.png" alt="thumbnail"
+            class="slide-in from-left photo"
           />
       </div>
       <div class="col-sm-6 portfolio">
@@ -333,74 +341,34 @@
           </div>
 
           <div id="page4" class="row">
-            <div class="col-sm-6 contact">
-              <img id="photo" src="assets/images/contact-info.png" alt="contact"
-                class="slide-in from-left"
-              />
+            <div class="col-sm-6 contact fade-in">
+              <div id="form-info">
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control textarea-background" id="exampleFormControlTextarea1" rows="3" placeholder="First Name"></textarea>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control textarea-background" id="exampleFormControlTextarea1" rows="3" placeholder="Last Name"></textarea></textarea>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"></label>
+                  <input type="email" class="form-control textarea-background" id="exampleFormControlInput1" placeholder="Name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control textarea-background" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div>
+                <button type="button" class="btn btn-dark fade-in btn-sm">Send</button>
+              </div>
           </div>
           <div class="col-sm-6 contact fade-in">
-           
-            <div id="form-info">
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Name</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="first name"></textarea>
-            </div>
-            <div class="mb-3">
-              
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="last name"></textarea></textarea>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-          </div>
-           
+            <p><span class="about-font slide-in from-right"> Let's Connect </span></p>
+            
+            <img id="contact-img" src="assets/images/contact-info.png" alt="contact"
+            class="slide-in from-right photo"/>
 
-          <!-- <div class="home-more-stuff">
-            <div id="contact-grid"class="more-stuff-grid">
-              <img
-              img id="photo" src="assets/images/contact.png" alt="contact"
-                class="slide-in from-left"
-              />
-              <p><span class="about-font slide-in from-right"> Message Me </span></p>
-                <div id="fh5co-main" class="slide-in from-right about-section-font">
-                  <div class="fh5co-narrow-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                        
-                          <br /><br />
-                          <form action="">
-                            <div class="row">
-                            
-                                <div class="row">
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                      <input type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                      <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                  </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                      <button type="Submit" class="btn btn-dark fade-in">Send Message</button>
-                                    </div>
-                                  </div>
-                                  
-                                </div>
-                              </div>
-                              
-                            </div>
-                          </form>
-                        </div> -->
       </div>                  
                   
           </div>    
