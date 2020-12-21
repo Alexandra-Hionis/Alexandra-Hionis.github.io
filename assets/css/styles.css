@@ -354,6 +354,9 @@ a:hover {
 }
 
 
+#umewe-margin {
+    margin-right: 20px;
+}
 
 
   /* For mobile phones: */
@@ -377,7 +380,12 @@ a:hover {
     .col-12 {width: 100%;}
   }
 
-
+  @include media-breakpoint-between(xs,sm){
+    .btn {
+        @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $line-height-sm, $btn-border-radius-sm);
+    }
+  }
+  
 /* #fh5co-main {
   
   -webkit-transition: 0.5s;

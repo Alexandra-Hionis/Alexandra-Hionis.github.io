@@ -70,22 +70,20 @@ a.two:hover {
 /* portfolio styles */
 
 /* thumbnail styles */
-/* img.stretchy {
-   width: 100%;
-   height: auto;
-   border-radius: 100%;
-
-}  */
+img.stretchy {
+    width: 100%; /*Tells image to fit to width of parent container*/
+    border: 2px black solid;
+} 
 .container {
-    width: 20%; /*Use this to control width of the parent container, hence the image*/
-    /* background-color: #F9F4F1; */
+    width: 63%; /*Use this to control width of the parent container, hence the image*/
+    background-color: #F9F4F1;
 }
 
 /* carousel section jumbotron style */
 .jumbotron-portfolio {
     font-family: 'Bitter', serif;
-    /* background-color: #F9F4F1; */
-    margin: 80px 00px 0px 0px;
+    background-color: #F9F4F1;
+    margin: 50px 100px 100px 100px;
     padding: 20px;
     border: solid black 2px;
 }
@@ -160,22 +158,3 @@ a.two:hover {
 }
 
 
-.image-cropper {
-    max-width: 100px;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-}
-
-.image-cropper img{
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 150%; 
-    margin: 0 0 0 -20%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;  
-}
