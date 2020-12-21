@@ -76,7 +76,8 @@ a:hover {
     background-color: #A8D4D1;
     position: relative;
     text-align: left;
-    /* height: 100vh; */
+    padding-bottom: 350px;
+    height: 100vh;
 }
 
 #me-image {
@@ -439,5 +440,10 @@ border-radius: 0px !important;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 10%;
+}
+
+#form-info {
+    border: black 2px solid;
+    padding: 15px;
 }
 
