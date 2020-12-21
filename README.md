@@ -21,7 +21,7 @@
 ## Contributing
 [Alexandra Hionis](https://github.com/Alexandra-Hionis/README-Generator)
 
-Referenced work by [Kevin Powell](https://www.youtube.com/watch?v=huVJW23JHKQ) on youtube. Great inspriation for my website and learned a lot from it.
+Referenced work by [Kevin Powell](https://www.youtube.com/watch?v=huVJW23JHKQ) on youtube. He explained it well and I learned new concepts, such as IntersectionObserver.
 
 ## Questions
 GitHub: https://github.com/Alexandra-Hionis<br /><br />
