@@ -101,3 +101,6 @@ sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
 
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
