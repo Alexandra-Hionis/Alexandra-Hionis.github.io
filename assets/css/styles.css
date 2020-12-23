@@ -8,8 +8,14 @@ html,body
 }
 
 /* link styles */ 
-a:hover {
+a.nav-link:hover {
     color: #EEFDEA;
+}
+
+a{
+    color: black;
+    text-decoration: none; 
+    font-family: 'Rubik', sans-serif;
 }
 
 /* header styles */
@@ -150,12 +156,6 @@ a:hover {
     text-align: center;
 }
 
-.about {
-    margin-top: 40px;
-    text-align: center;
-}
-
-
 .about-font {
     font-family: 'Rubik', sans-serif;
     font-size: 4vw;
@@ -266,7 +266,7 @@ a:hover {
     background-color: #A8D4D1;
     font-family: 'Rubik', sans-serif;
     font-size: 2vh;
-    margin-top: 80px;
+    margin-bottom: -5px;
 }
 
 /* @media (min-width: 1200px) */
@@ -442,6 +442,14 @@ border-radius: 0px !important;
 }
 
 
-.back-to-top {
-    margin-top: -25px;
+#back-to-top {
+    text-align: center;
+}
+
+.to-top{
+    text-align: center;
+}
+
+#contact-info-background {
+    background-color: #A8D4D1
 }
