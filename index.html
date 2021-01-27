@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@800&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -34,7 +36,7 @@
   <header class="header" id="myHeader">
 
     <!-- Nav -->
-    <div class="pos-f-t">
+    <!-- <div class="pos-f-t">
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="p-4">
           <ul class="nav fixed-top justify-content-center">
@@ -56,7 +58,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-    </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html#page1"><img id="logo" src="assets/images/logo.png" alt="logo"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#page2">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#page3">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#page4">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <!-- end of header section -->
 
@@ -65,15 +89,28 @@
     <section id="page1">
 
       <div class="container">
-
         <div class="row">
+          <div class="col-sm-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5">
+            <div id="name-div">
+            <p>< Alexandra<br> Hionis /></p>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div id="portrait-div">
+            <img id="portrait" src="assets/images/portrait.png" alt="me"/>
+          </div>
+          </div>
+          <div class="col-sm-1"></div>
+          <!-- <div class="col-12 shrink"> -->
+            <!-- <img id="optionalstuff" class="arrows" src="assets/images/CHECK_ME_OUT-removebg.png" alt="arrows"> -->
 
-          <div class="col-12 shrink">
-            <img id="optionalstuff" class="arrows" src="assets/images/CHECK_ME_OUT-removebg.png" alt="arrows">
-
-            <img id="me-image" src="assets/images/me.jpg" alt="arrows">
-            <p><span id="name-font"> ALEXANDRA<br> HIONIS </span></p>
-
+            <!-- <img id="me-image" src="assets/images/me.jpg" alt="arrows"> -->
+            <!-- <p><span id="name-font"> ALEXANDRA<br> HIONIS </span></p> -->
+            
           </div>
         </div>
       </div>
@@ -82,13 +119,13 @@
 
     <section id="page2">
 
-      <div class="container">
+     
         <div class="row">
           <!-- about me -->
           <div class="col-12 about">
-            <p><span class="about-font fade-in"> About Me </span></p>
-            <p class="small fade-in">Get to know me a little.</p>
-            <p class="small fade-in">Who I am, what I do and get connected.</p> <br>
+            <p><span class="slide-right-font fade-in"> About Me </span></p>
+            <p class="small fade-in">Get to know me!</p>
+            <!-- <p class="small fade-in">Who I am, what I do and get connected.</p> <br> -->
           </div>
           <div class="row columns">
             <div class="col fade-in about-section-font fade-margins">
@@ -115,13 +152,29 @@
             </div>
           </div>
         </div>
-      </div>
-
-
-      <div class="home-more-stuff">
-        <div id="about-grid" class="more-stuff-grid">
-          <img src="assets/images/my-photo.JPG" alt="image of me" class="slide-in from-left photo" />
-          <p><span class="about-font slide-in from-right"> Hi, I'm Alexandra </span></p>
+      
+        <div class="row">
+          <div class="col-sm-6 portfolio">
+            <img src="assets/images/me.jpg" id="selfie" alt="image of me" class="slide-in from-left" />
+          </div>
+          <div class="col-sm-6 portfolio">
+            <p><span class="slide-right-font slide-in from-right"> I'm Alexandra </span></p>
+            <p class="slide-in from-right about-section-font thumbnail-margin">
+              I am an aspiring full stack web developer, with focus on front end development. I love to study new code and
+            to build a more intuitive user experience on the web. With each project, my aim is to best engage my
+            audience for an impactful user experience, both visually and behind the scenes.</p>
+            <p class="slide-in from-right about-section-font thumbnail-margin">
+              In my spare time I enjoy spending time with my girlfriend,
+            family and friends. I enjoy cooking, kickboxing, photography, traveling and skiing. Aside from coding, another main
+            goal of mine is real estate. I am a part of the LGBTQIA+ community, I follow women
+            in tech and I am always open to new adventures!</p>
+          </div>
+        </div>
+      <!-- <div class="container home-more-stuff">
+        <div id="about-grid" class="row more-stuff-grid">
+          <div col-
+          <img src="assets/images/comp-img.png" id="comp-image" alt="image of me" class="slide-in from-left photo" />
+          <p><span id="about-header-font" class="slide-right-font slide-in from-right"> I'm Alexandra </span></p>
           <p class="slide-in from-right about-section-font">
             I am an aspiring full stack web developer, with focus on front end development. I love to study new code and
             to build a more intuitive user experience on the web. With each project, my aim is to best engage my
@@ -131,10 +184,10 @@
             family and friends. I enjoy cooking, kickboxing, photography, traveling and skiing. Aside from coding, another main
             goal of mine is real estate. I am a part of the LGBTQIA+ community, I follow women
             in tech and I am always open to new adventures!</p>
-        </div>
+        </div> -->
 
     </section>
-    </section>
+   
 
 
 
@@ -143,7 +196,7 @@
     <section id="page3">
       <div class="row">
         <div class="col-12 portfolio">
-          <p><span class="portfolio-font fade-in"> Projects </span></p>
+          <p><span class="slide-right-font fade-in"> Projects </span></p>
           <a href="assets/images/Coding-Resume.pdf" target="_blank" class="resumeLink">
             <button type="button" class="btn btn-dark fade-in btn">View Resume</button>
           </a>
@@ -155,7 +208,7 @@
           <img src="assets/images/UMEWE.png" alt="thubnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> UMEWE </span></p>
+          <p><span class="slide-right-font slide-in from-right"> UMEWE </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             Whether you’re looking to meet a friend, family member, or even a date, UMEWE will find the midway point
             between two different locations and display a list of 10 restaurants within that radius. </p>
@@ -178,7 +231,7 @@
           <img src="assets/images/burger.png" alt="thubnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Eat-Da-Burger </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Eat-Da-Burger </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             Eat-Da-Burger! is a restaurant application that lets users input the names of burgers they'd like to eat.
             You can add, devour and delete it.</p>
@@ -201,7 +254,7 @@
           <img src="assets/images/outofoffice.png" alt="thumbnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Out-Of-Office </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Out-Of-Office </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             Out of Office enables employees to create a post for an after-work event. Other employees can search, join,
             or create events.</p>
@@ -224,7 +277,7 @@
           <img src="assets/images/planner.png" alt="thumbnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Work Day Planner </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Work Day Planner </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             A simple calendar application that allows a user to save events for each hour of the day.
           <div id="button-row" class="row">
@@ -245,7 +298,7 @@
           <img src="assets/images/quiz.png" alt="thumbnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Javascript Quiz </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Javascript Quiz </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             A timed code quiz with multiple-choice questions that tests your knowledge on JavaScript
             questions.
@@ -267,7 +320,7 @@
           <img src="assets/images/password.png" alt="thumbnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Password Generator </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Password Generator </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             This app creates a unique and secure password adding a better level of security.
           <div id="button-row" class="row">
@@ -289,7 +342,7 @@
           <img src="assets/images/weather.png" alt="thumbnail" class="slide-in from-left photo" />
         </div>
         <div class="col-sm-6 portfolio">
-          <p><span class="portfolio-font slide-in from-right"> Weather Dashboard </span></p>
+          <p><span class="slide-right-font slide-in from-right"> Weather Dashboard </span></p>
           <p class="slide-in from-right about-section-font thumbnail-margin">
             Weather application that allows a user to search for a city and get the current weather and 5 day forecast.
           <div id="button-row" class="row">
@@ -365,7 +418,7 @@
 
         <div class="row">
           <div id="copyright" class="col-sm-12">
-            <p>&#169;Alexandra Hionis</p>
+            <p>&#169;Alexandra Hionis<img id="rainbow"src="assets/images/rainbow.png" alt="rainbow"></p>
           </div>
 
 
@@ -383,16 +436,22 @@
 
   <!-- start of footer section -->
   <footer class="navbar fixed-bottom">
-    <a href="https://www.linkedin.com/in/alexandra-hionis/">
+    <ul style="list-style: none;">
+   <li> <a href="https://www.linkedin.com/in/alexandra-hionis/">
       <image src="assets/images/linkedin.png" alt="LinkedIn icon" class="social-icons">
     </a>
+  </li>
+  <li>
     <a href="https://github.com/Alexandra-Hionis">
       <image src="assets/images/github.png" alt="Github icon" class="social-icons">
     </a>
+  </li>
+  <li>
     <a href="https://twitter.com/AlexandraHionis">
-      <image src="assets/images/twitter.png" alt="Twitter icon" class="social-icons">
+      <image src="assets/images/twitter.png" alt="Twitter icon" id="twitter" class="social-icons">
     </a>
-
+  </li>
+  </ul>
   </footer>
   <!-- end of footer section -->
 

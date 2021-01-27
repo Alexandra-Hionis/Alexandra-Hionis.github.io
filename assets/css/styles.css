@@ -7,9 +7,15 @@ html,body
     overflow-x: hidden; 
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 /* link styles */ 
 a.nav-link:hover {
-    color: #EEFDEA;
+    color: black;
 }
 
 
@@ -17,7 +23,7 @@ a.nav-link:hover {
 
 /* header styles */
 .header {
-    background-color: #494A4A;
+    background-color: white;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -35,14 +41,14 @@ a.nav-link:hover {
 /* nav styles */
 .nav-link {
     color: black;
-    color: #A8D4D1;
-    font-family: 'Rubik', sans-serif;
+    color: #90a1a0;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 
 }
 
 .nav {
-    background: #494A4A;
+    background: white;
     
 }
 
@@ -71,53 +77,62 @@ a.nav-link:hover {
 /* page styles */
 
 #page1 {
-    background-color: ivory;
+    /* background-color: white;
     align-items: center;
     white-space: nowrap;
-    height: 100vh;
+    height: 100vh; */
 } 
 
+/* #page1 {
+    background: url(../images/background-image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
 #page2 {
-    background-color: #A8D4D1;
+    background-color: #F8F9FA;
     position: relative;
     text-align: left;
 }
 
 #page3{
     padding-top: 50px;
-    background-color: ivory; 
+    background-color: white; 
 }
 
 #page4 {
-    background-color: #A8D4D1;
+    background-color: #F8F9FA;
     position: relative;
     /* text-align: left; */
     
 }
 
 #portfolio-grid {
-    background-color: ivory;
+    background-color: white;
 }
 
 #about-grid {
-    background-color: #A8D3D1;
+    background-color: #F8F9FA;
 
 }
 
-#contact-grid {
+/* #contact-grid {
     background-color: #A8D3D1;;
-}
+} */
 
 
 /* image styles */
 
-#me-image {
+/* #me-image {
     vertical-align: middle;
     border-style: none;
     width: 50%;
     margin-top: 60px;
     margin-left: 140px;
-}
+} */
 
 .shrink img {
     transition: 1s ease;
@@ -128,6 +143,13 @@ a.nav-link:hover {
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
+}
+
+#selfie {
+    object-fit: cover;
+    border: solid 2px black; 
+    width: 50%;
+
 }
 
 .photo {
@@ -153,39 +175,39 @@ a.nav-link:hover {
 }
 
 .about-font {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 4vw;
     text-transform: uppercase;
-    color: #EEFDEA;
+    color:black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+
 .about-section-font {
     font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
-    /* color: #FED2AF; */
     color: black;
 }
 .about-section-header {
     font-family: 'Rubik', sans-serif;
-    color: #EEFDEA;
+    color: #272F41;
     font-size: 4vh;
+    text-align: center;
 }
 
 /* portfolio section */
 
 .portfolio {
     text-align: center;
-    color: #A8D4D1;
     margin-bottom: 10%;
 }
-.portfolio-font {
-    font-family: 'Rubik', sans-serif;
+.slide-right-font {
+    font-family: 'Montserrat', sans-serif;
     font-size: 4vw;
     text-transform: uppercase;
-    color: #A8D4D1;
+    color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -198,7 +220,8 @@ a.nav-link:hover {
 }
 
 .thumbnail-margin {
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 /* contact section */
@@ -209,10 +232,10 @@ a.nav-link:hover {
 }
 
 .contact-font {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 4vw;
     text-transform: uppercase;
-    color: #EEFDEA;
+    color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -228,15 +251,16 @@ a.nav-link:hover {
     text-align: center;
 }
 
-#name-font {
-    font-family: 'Rubik', sans-serif;
+/* #name-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 5vw;
     color: #A8D3D1;
     position: absolute;
     top: 50%;
     left: 35%;
     transform: translate(-50%, -50%);
-}
+} */
 
 
 /* footer & copyright style */
@@ -250,20 +274,23 @@ a.nav-link:hover {
 /* social media icons footer */
 
 .social-icons {
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
     padding: 0px;
-    margin: 10px 8px 8px 8px;
+    margin: 4px 2px 4px 2px;
+}
+#twitter {
+    margin-bottom: -2px;
 }
 /* copyright footer */
 
 #copyright {
     text-align: center;
-    background-color: #A8D4D1;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2vh;
-    margin-bottom: -5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    margin-bottom: 5px;
 }
+
 
 /* @media (min-width: 1200px) */
 .container {
@@ -377,6 +404,7 @@ a.nav-link:hover {
     }
   }
   
+  
 /* #fh5co-main {
   
   -webkit-transition: 0.5s;
@@ -433,16 +461,61 @@ border-radius: 0px !important;
 }
 
 .textarea-background{
-    background-color: ivory;
+    background-color: white;
     margin-left: 30px;
 }
 
 #form-info {
     max-width: 80%;
 }
+
+/* new ish */
+
+#logo {
+    width: 60px;
+    height: 60px;
+}
+#name-div {
+    margin-top: 20%;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    font-size: 4vh;
+    /* color:#C2988B; */
+    color:black;
+    /* color:#68696B; */
+    /* color: #DAA796; */
+}
+
+#portrait-div{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    
+}
+
+#portrait {
+max-width:100%;
+   height:auto;
+   max-height:100%;
+
+}
+
+#comp-image {
+    border: none;
+   width: 100%;
+   height: 100%;
+}
+
+#rainbow {
+    width: 82px;
+    height: 52px;
+    margin-left: -20px;
+}
+
 #to-top {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #back-to-top {
@@ -452,6 +525,6 @@ border-radius: 0px !important;
 
 #copyright {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 5%;
     font-family: 'Montserrat', sans-serif;
 }
