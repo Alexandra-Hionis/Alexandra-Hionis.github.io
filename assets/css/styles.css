@@ -7,12 +7,6 @@ html,body
     overflow-x: hidden; 
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
 /* link styles */ 
 a.nav-link:hover {
     color: black;
@@ -76,34 +70,19 @@ a.nav-link:hover {
 
 /* page styles */
 
-#page1 {
-    /* background-color: white;
-    align-items: center;
-    white-space: nowrap;
-    height: 100vh; */
-} 
 
-/* #page1 {
-    background: url(../images/background-image.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-
-#page2 {
+#about {
     background-color: #F8F9FA;
     position: relative;
     text-align: left;
 }
 
-#page3{
+#project{
     padding-top: 50px;
     background-color: white; 
 }
 
-#page4 {
+#contact {
     background-color: #F8F9FA;
     position: relative;
     /* text-align: left; */
@@ -194,6 +173,12 @@ a.nav-link:hover {
     font-family: 'Rubik', sans-serif;
     color: #272F41;
     font-size: 4vh;
+    text-align: center;
+}
+
+.about-paragraphs{
+    margin-top: 0;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -479,11 +464,15 @@ border-radius: 0px !important;
     margin-top: 20%;
     font-family: 'Rubik', sans-serif;
     text-transform: capitalize;
-    font-size: 4vh;
+    
     /* color:#C2988B; */
     color:black;
     /* color:#68696B; */
     /* color: #DAA796; */
+}
+
+#home-name {
+    font-size: 3em;
 }
 
 #portrait-div{
