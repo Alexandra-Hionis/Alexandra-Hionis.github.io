@@ -217,6 +217,12 @@ max-width:100%;
     text-align: center;
 }
 
+.about-photo-text-align {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
 /* portfolio section */
 
 .portfolio {
