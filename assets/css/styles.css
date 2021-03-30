@@ -1,426 +1,445 @@
 /* body style */
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-/* link styles */ 
+/* link styles */
 a.nav-link:hover {
-    color: black;
+  color: black;
 }
 
 /* header styles */
 .header {
-    margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
 
 /* nav styles */
 .nav-link {
-    color: black;
-    color: #90a1a0;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-
+  color: black;
+  color: #90a1a0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .nav {
-    background: white;
-    
+  background: white;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    border: none;
+  cursor: pointer;
+  border: none;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
 
 /* page styles */
 #logo {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 #name-div {
-    margin-top: 20%;
-    font-family: 'Rubik', sans-serif;
-    text-transform: capitalize;
-    color:black;
+  margin-top: 20%;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  color: black;
 }
 
 #home-name {
-    font-size: 3.7vw;
+  font-size: 3.7vw;
 }
 
 .home-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
 }
 
 .typewriter {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter;
-    display: block;
-    position: relative;
-    animation-duration: 25s;
-    animation-timing-function: steps(25, end);
-    animation-iteration-count: infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: block;
+  position: relative;
+  animation-duration: 25s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
 }
 .typewriter::after {
-    content: "|";
-    color: grey;
-    right: 0;
-    animation: caret infinite;
-    animation-duration: 1s;
-    animation-timing-function: steps(1, end);
-
+  content: "|";
+  color: grey;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
 }
 
 @keyframes typewriter {
-0%, 100% {
+  0%,
+  100% {
     width: 0;
-}
-20%, 80% {
+  }
+  20%,
+  80% {
     width: 10.2em;
-}
+  }
 }
 @keyframes caret {
-0%, 100% {
+  0%,
+  100% {
     opacity: 0;
-}
-50% {
+  }
+  50% {
     opacity: 1;
-}
+  }
 }
 
-#portrait-div{
-    width:100vw;
-    height:100vh;
-    margin:0;
-    padding:0;
-    
-}
+/* #portrait-div {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+} */
 
 #portrait {
-max-width:100%;
-   height:auto;
-   max-height:100%;
-
+  width: 85%;
+  height: auto;
 }
 
 #about {
-    background-color: #F8F9FA;
-    position: relative;
-    text-align: left;
+  background-color: #f8f9fa;
+  position: relative;
+  text-align: left;
 }
 
-#project{
-    padding-top: 50px;
-    background-color: white; 
+#project {
+  padding-top: 50px;
+  background-color: white;
 }
 
 #contact {
-    background-color: #F8F9FA;
-    position: relative;
-    /* text-align: left; */
-    
+  background-color: #f8f9fa;
+  position: relative;
+  /* text-align: left; */
 }
 
 #portfolio-grid {
-    background-color: white;
+  background-color: white;
 }
 
 #about-grid {
-    background-color: #F8F9FA;
-
+  background-color: #f8f9fa;
 }
 
 #selfie {
-    object-fit: cover;
-    border: solid 2px black; 
-    width: 50%;
-
+  object-fit: cover;
+  border: solid 2px black;
+  width: 50%;
 }
 
 .photo {
-    object-fit: cover;
-    border: solid 2px black; 
-    width: 90%;
+  object-fit: cover;
+  border: solid 2px black;
+  width: 90%;
 }
 
 #contact-img {
-    border: none;
+  border: none;
 }
 /* about section */
 
 .about {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .about-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4vw;
-    text-transform: uppercase;
-    color:black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 
 .about-section-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2vh;
-    color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vh;
+  color: black;
 }
 .about-section-header {
-    font-family: 'Rubik', sans-serif;
-    color: #272F41;
-    font-size: 4vh;
-    text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #272f41;
+  font-size: 4vh;
+  text-align: center;
 }
 
-.about-paragraphs{
-    margin-top: 0;
-    margin-bottom: 1rem;
-    text-align: center;
+.about-paragraphs {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-photo-text-align {
-    text-align: center;
-    margin-bottom: 10%;
+  text-align: center;
+  margin-bottom: 10%;
 }
-
 
 /* portfolio section */
 
 .portfolio {
-    text-align: center;
-    margin-bottom: 10%;
+  text-align: center;
+  margin-bottom: 10%;
 }
 .slide-right-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4vw;
-    text-transform: uppercase;
-    color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
- .portfolio-image {
-    border-radius: 5%;
-    vertical-align: middle;
-    border: black solid 15px;
+.portfolio-image {
+  border-radius: 5%;
+  vertical-align: middle;
+  border: black solid 15px;
 }
 
 .thumbnail-margin {
-    margin-right: 30px;
-    margin-left: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /* contact section */
 
 .contact {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .contact-font {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4vw;
-    text-transform: uppercase;
-    color: black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
 
 .small {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2vh;
-    /* color: #FED2AF; */
-    color: black;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vh;
+  /* color: #FED2AF; */
+  color: black;
+  text-align: center;
 }
-
 
 /* footer & copyright style */
 
 .navbar {
-    display: flex;
-    justify-content:flex-end;
-    padding: 0;
-    background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  background: transparent;
 }
 /* social media icons footer */
 
 .social-icons {
-    width: 22px;
-    height: 22px;
-    padding: 0px;
-    margin: 4px 2px 4px 2px;
+  width: 22px;
+  height: 22px;
+  padding: 0px;
+  margin: 4px 2px 4px 2px;
 }
 #twitter {
-    margin-bottom: -2px;
+  margin-bottom: -2px;
 }
 /* copyright footer */
 
 #copyright {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3vh;
-    margin-bottom: 5px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vh;
+  margin-bottom: 5px;
 }
-
 
 /* @media (min-width: 1200px) */
 .container {
-    max-width: 3000px;
+  max-width: 3000px;
 }
 
 /* js fade in animation */
 
 .columns {
-    display: flex;
+  display: flex;
 }
 .col + .col {
-    margin-left: 1.5em;
+  margin-left: 1.5em;
 }
 
 .col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 90%;
-    margin: 35px;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 90%;
+  margin: 35px;
 }
-
 
 #word-wrap {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 .fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in;
+  opacity: 0;
+  transition: opacity 1s ease-in;
 }
 .fade-in.appear {
-    opacity: 1;
+  opacity: 1;
 }
 
 .more-stuff-grid {
-    background: #f4f4f4;
-    padding: 4em 0;
-    display: grid;
-    grid-gap: 2em;
-    align-items: center;
-    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
-        1em,
-        1fr
-      );
-  }
-  
-  .from-left {
-    grid-column: 2 / 3;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  
-  .from-right {
-    grid-column: 3 / 4;
-    -webkit-transform: translateX(50%);
-    transform: translateX(50%);
-  }
-  
-  .from-left,
-  .from-right {
-    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
-    transition: opacity 250ms ease-in, transform 400ms ease-in;
-    transition: opacity 250ms ease-in, transform 400ms ease-in,
-      -webkit-transform 400ms ease-in;
-    opacity: 0;
-  }
-  
-  .from-left.appear,
-  .from-right.appear {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  .more-stuff-grid {
-    
-    padding: 4em 0;
-    display: grid;
-    grid-gap: 2em;
-    align-items: center;
-    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax( 1em, 1fr );
+  background: #f4f4f4;
+  padding: 4em 0;
+  display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+      1em,
+      1fr
+    );
 }
 
-  /* For mobile phones: */
+.from-left {
+  grid-column: 2 / 3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.more-stuff-grid {
+  padding: 4em 0;
+  display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+      1em,
+      1fr
+    );
+}
+
+/* For mobile phones: */
 [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
     width: 100%;
   }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+}
 
-  @include media-breakpoint-between(xs,sm){
-    .btn {
-        @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $line-height-sm, $btn-border-radius-sm);
-    }
+@include media-breakpoint-between(xs, sm) {
+  .btn {
+    @include button-size(
+      $input-btn-padding-y-sm,
+      $input-btn-padding-x-sm,
+      $font-size-sm,
+      $line-height-sm,
+      $btn-border-radius-sm
+    );
   }
-  
-.form-control{
-     -webkit-appearance: none;
+}
+
+.form-control {
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   box-shadow: none;
@@ -444,51 +463,49 @@ max-width:100%;
   background: #da1212 !important;
   color: #fff !important;
   border: 2px solid #da1212 !important;
-border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 
-
 .form-control {
-    border: 2px solid grey !important;
- 
+  border: 2px solid grey !important;
 }
 
 .contact-grid {
-    /* display: -webkit-box; */
-    display: -ms-flexbox;
-    /* display: flex; */
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 10%;
+  /* display: -webkit-box; */
+  display: -ms-flexbox;
+  /* display: flex; */
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 10%;
 }
 
-.textarea-background{
-    background-color: white;
-    margin-left: 30px;
+.textarea-background {
+  background-color: white;
+  margin-left: 30px;
 }
 
 #form-info {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 #rainbow {
-    width: 82px;
-    height: 52px;
-    margin-left: -20px;
+  width: 82px;
+  height: 52px;
+  margin-left: -20px;
 }
 
 #to-top {
-    text-align: center;
-    padding-top: 10%;
+  text-align: center;
+  padding-top: 10%;
 }
 
 #back-to-top {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 #copyright {
-    text-align: center;
-    padding-top: 5%;
-    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  font-family: "Montserrat", sans-serif;
 }
