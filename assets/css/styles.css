@@ -70,7 +70,7 @@ a.nav-link:hover {
 }
 #name-div {
   margin-top: 20%;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Rubik", sans-serif;
   text-transform: capitalize;
   color: black;
