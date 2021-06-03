@@ -12,6 +12,16 @@ a.nav-link:hover {
   color: black;
 }
 
+a {
+  color: black;
+}
+a:hover {
+  color: #aed7cc;
+}
+
+a:visited {
+  color: black;
+}
 /* header styles */
 .header {
   margin-bottom: 100px;
@@ -149,7 +159,6 @@ a.nav-link:hover {
 #contact {
   background-color: #f8f9fa;
   position: relative;
-  /* text-align: left; */
 }
 
 #portfolio-grid {
@@ -259,6 +268,15 @@ a.nav-link:hover {
   transform: translate(-50%, -50%);
 }
 
+.contact-icons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
 .small {
   font-family: "Montserrat", sans-serif;
   font-size: 2vh;
@@ -291,7 +309,7 @@ a.nav-link:hover {
 #copyright {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 3vh;
+
   margin-bottom: 5px;
 }
 
